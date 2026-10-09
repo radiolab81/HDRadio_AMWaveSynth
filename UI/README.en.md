@@ -1,3 +1,5 @@
+[Deutsch](README.en.md) · **English**
+
 # HD Radio Modulator GUI (hdtxgui.py)
 
 Python 3/Tk interface for `hdradio_am`, successor to `amtxgui.py`.
