@@ -25,11 +25,17 @@ Voraussetzungen: `python3-tk`, `ffmpeg`, `xterm`; `socat` nur für die SDR-Brüc
 * Es gibt **keine Audiobandbreite** mehr: ffmpeg liefert immer das volle Band (s16le, mono, 44,1 kHz) mit `volume=0.8` und dem Kompressor aus dem alten Skript. Die Begrenzung auf 5/8 kHz für den Analogpfad macht der Modulator selbst.
 * Unter den Optionen steht die ungefähre belegte Bandbreite. Überlappt das Digitalsignal mit einem anderen Sender (MA1 ca. ±14,8 kHz, MA3 ca. ±9,6 kHz, MA3+RDB ca. ±5 kHz), kommt eine Warnung, die Sie bestätigen können. Maximal 8 Sender.
 
+![dlg](/UI/images/stationsdlg.png)
+
+![inetradio](/UI/images/internetradios.png)
+
 ## CSV-Senderlandschaften (Datei → Laden / Speichern)
 
 Neues Format, Trennzeichen `;`: `Frequenz;Modus;Optionen;Programmname;URL / Pfad`, Beispiel `Beispiel_Senderlandschaft_HD.csv`.
 Alte Dateien aus `amtxgui.py` (`Frequenz;Bandbreite;Programmname;URL` werden erkannt und als MA1 ohne Optionen geladen. Die Bandbreite entfällt.
 Die Kopfzeile darf in jeder Sprache stehen.
+
+![mainui](/UI/images/mainui.png)
 
 ## Start / Stopp und Anzeigen
 
@@ -44,6 +50,8 @@ Die Kopfzeile darf in jeder Sprache stehen.
 ## Modulator → Einstellungen
 
 DAC-Bittiefe, Samplerate (5 oder 10 MSPS, 10 = doppelt ausgegeben wie bisher), Stationsname, Slogan, Nachricht, Land, Programmtyp, Analog-Modulationsgrad und -Verzögerung, Trägerpegel, Modulator-Pfad, SDR-Brücke (IP, Port, Remote-fl2k) und der fl2k-Befehl.
+
+![settings](/UI/images/modulatorsettings.png)
 
 ## Grenzen
 
