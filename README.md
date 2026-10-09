@@ -1,3 +1,6 @@
+
+**Deutsch** · [English](README.en.md)
+
 # HD Radio Version von AMWaveSynth (Wave synthesizer für Lang- und Mittelwelle)
 
 Modifizierte Version zu `am_modulator_5MSPS_integer.c` aus https://github.com/radiolab81/AMWaveSynth, aber mit digitalem HD-Radio-Signal
