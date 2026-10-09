@@ -86,6 +86,8 @@ Der Start dauert wegen der Audio-Vorpufferung etwa 1,5 bis 3 s, bis echtes Audio
 Im Verzeichnis "UI" liegt zusätzlich eine multilinguales PythonTK Nutzerinterface zur Kontrolle des kompletten
 Sendeprozesses. 
 
+![ui](/UI/images/mainui.png)
+
 ## Prüfung
 
 Als Gegenstelle diente der Open-Source-Decoder **nrsc5** (mit `--am`), davor eine Empfangskette
