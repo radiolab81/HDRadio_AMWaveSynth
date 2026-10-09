@@ -32,7 +32,7 @@ Voraussetzungen: `python3-tk`, `ffmpeg`, `xterm`; `socat` nur für die SDR-Brüc
 ## CSV-Senderlandschaften (Datei → Laden / Speichern)
 
 Neues Format, Trennzeichen `;`: `Frequenz;Modus;Optionen;Programmname;URL / Pfad`, Beispiel `Beispiel_Senderlandschaft_HD.csv`.
-Alte Dateien aus `amtxgui.py` (`Frequenz;Bandbreite;Programmname;URL` werden erkannt und als MA1 ohne Optionen geladen. Die Bandbreite entfällt.
+Alte Dateien aus `amtxgui.py` (`Frequenz;Bandbreite;Programmname;URL`) werden erkannt und als MA1 ohne Optionen geladen. Die Bandbreite entfällt.
 Die Kopfzeile darf in jeder Sprache stehen.
 
 ![mainui](/UI/images/mainui.png)
