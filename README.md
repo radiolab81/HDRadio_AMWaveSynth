@@ -12,6 +12,11 @@ NRSC-5-D (1012s, Layer 1 AM) kennt genau zwei MW-Servicemodi, beide sind impleme
 | **MA1** | Hybrid: analoges AM plus digitale Seitenbänder | `aab` (Analog-Audio 8 statt 5 kHz), `pl` (Sekundär/Tertiär-Leistung hoch), `hpp` (PIDS-Leistung hoch), `rdb` (reduzierte Digitalbandbreite) |
 | **MA3** | All-Digital (unmoduzierter Träger plus OFDM) | `hpp`, `rdb` |
 
+![ma1](/images/MA1.png)*MA1 hybrid mode*
+
+![ma3](/images/MA3.png)*MA3 all digital mode*
+
+
 ## Signalkette
 
 ```
