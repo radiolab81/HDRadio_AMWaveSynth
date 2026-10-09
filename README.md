@@ -46,22 +46,23 @@ Ohne `USE_FDK_HDC` laufen L1/L2/SIS/PSD vollständig, aber im Audiokanal stehen 
 ./hdradio_am -b 8 -s 10 1234:603000:ma1,aab 1235:1017000:ma3,hpp
 sudo fl2k_tcp -a 127.0.0.1 -p 12345 -s 10000000
 ```
-
 Audio zuführen (je Sender ein UDP-Port, 16 Bit, mono, 44100 Hz, little endian):
 
 ```
 ffmpeg -re -i musik.mp3 -f s16le -ar 44100 -ac 1 udp://127.0.0.1:1234
 ```
 
-Eine Testaussendung gegen das "offline"-Tool AMWaveSynthFFT ist ebenso möglich:
+![rx1](/images/rx1.jpg)
+![rx2](/images/rx2.jpg)
 
+Eine Testaussendung gegen das "offline"-Tool AMWaveSynthFFT ist ebenso möglich:
 
 ```
 ./hdradio_am -b 12 1234:603000:ma1,aab 1235:1017000:ma3,hpp
 python3 AMWaveSynthFFT.py
 ```
 
-
+![fftpy](/images/AMWaveSynthFFT.png)
 
 Wichtige Optionen: `-b` Bittiefe 8..16, `-s` 5 (nativ) oder 10 (jedes Sample doppelt, wie das Original),
 `-o datei -n sek` Ausgabe in Datei, `-i datei` Audio-Datei für Sender mit Port 0 (Port 0 ohne `-i` = Testton),
