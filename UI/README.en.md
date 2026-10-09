@@ -1,4 +1,4 @@
-[Deutsch](README.en.md) · **English**
+[Deutsch](README.md) · **English**
 
 # HD Radio Modulator GUI (hdtxgui.py)
 
