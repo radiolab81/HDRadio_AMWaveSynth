@@ -1,0 +1,19 @@
+{
+  "lang": "DE",
+  "bits": 8,
+  "rate": "10",
+  "name": "HDAM",
+  "slogan": "HD Radio AM Modulator",
+  "message": "5 MSPS Integer NRSC-5 MA1/MA3",
+  "country": "DE",
+  "ptype": 0,
+  "md": "0.85",
+  "adelay": "5.5",
+  "level": "",
+  "bin": "./hdradio_am",
+  "sdr_ip": "127.0.0.1",
+  "sdr_port": "1234",
+  "remote": false,
+  "fl2k_auto": true,
+  "fl2k_cmd": "./start_fl2k.sh"
+}
